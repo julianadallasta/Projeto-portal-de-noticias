@@ -15,20 +15,15 @@
       top: 50%;
       background: linear-gradient(180deg, transparent 0%, #020617 100% );
     }
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 72px 24px 24px;
-  gap: 8px;
-  
-  position: absolute;
-  height: 208px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px; */
-  
-  /* background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%); */
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+
+      h2 {
+        margin-top: 8px;
+      }
+    }
   }
 }
 
