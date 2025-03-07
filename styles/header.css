@@ -1,7 +1,7 @@
 #primary {
   padding-block:20px;
 
-  div {
+  figure {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -9,11 +9,11 @@
   }
 
   /* nesting CSS */
-  div:nth-child(2) {
+  figure:nth-child(2) {
     margin-inline: auto;
   }
 
-  div:nth-child(3) {
+  figure:nth-child(3) {
     justify-self: end;
   }
 }
